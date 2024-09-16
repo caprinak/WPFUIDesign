@@ -1,0 +1,97 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+ 
+  </PropertyGroup>
+	 
+  <ItemGroup>
+    <Compile Remove="NewFolder1\**" />
+    <Compile Remove="NewFolder2\**" />
+    <EmbeddedResource Remove="NewFolder1\**" />
+    <EmbeddedResource Remove="NewFolder2\**" />
+    <None Remove="NewFolder1\**" />
+    <None Remove="NewFolder2\**" />
+    <Page Remove="NewFolder1\**" />
+    <Page Remove="NewFolder2\**" />
+  </ItemGroup>
+	 
+  <ItemGroup>
+    <None Remove="Assets\question-mark-svgrepo-com.svg" />
+    <None Remove="Images\accept.png" />
+    <None Remove="Images\arrow-left.png" />
+    <None Remove="Images\bullet_ball_glass_blue.png" />
+    <None Remove="Images\bullet_ball_glass_red.png" />
+    <None Remove="Images\bullet_ball_green.png" />
+    <None Remove="Images\bullet_ball_yellow.png" />
+    <None Remove="Images\cancel.png" />
+    <None Remove="Images\copy.png" />
+    <None Remove="Images\cut.png" />
+    <None Remove="Images\folder.png" />
+    <None Remove="Images\funny.png" />
+    <None Remove="Images\go.png" />
+    <None Remove="Images\group.jpg" />
+    <None Remove="Images\help.png" />
+    <None Remove="Images\logo.jpg" />
+    <None Remove="Images\music-stop.png" />
+    <None Remove="Images\paste.png" />
+    <None Remove="Images\pause-button.png" />
+    <None Remove="Images\play-button.png" />
+    <None Remove="Images\question-mark-10911.png" />
+    <None Remove="Images\right-arrow.png" />
+    <None Remove="Images\USER.png" />
+    <None Remove="Images\whitepage.png" />
+  </ItemGroup>
+	 
+  <ItemGroup>
+    <PackageReference Include="System.Speech" Version="8.0.0" />
+    <PackageReference Include="System.Windows.Forms.Ribbon35" Version="3.5.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\question-mark-svgrepo-com.svg" />
+    <Resource Include="Images\accept.png" />
+    <Resource Include="Images\arrow-left.png" />
+    <Resource Include="Images\bullet_ball_glass_blue.png" />
+    <Resource Include="Images\bullet_ball_glass_red.png" />
+    <Resource Include="Images\bullet_ball_green.png" />
+    <Resource Include="Images\bullet_ball_yellow.png" />
+    <Resource Include="Images\cancel.png" />
+    <Resource Include="Images\copy.png" />
+    <Resource Include="Images\cut.png" />
+    <Resource Include="Images\folder.png" />
+    <Resource Include="Images\funny.png" />
+    <Resource Include="Images\go.png" />
+    <Resource Include="Images\group.jpg" />
+    <Resource Include="Images\help.png" />
+    <Resource Include="Images\logo.jpg" />
+    <Resource Include="Images\music-stop.png" />
+    <Resource Include="Images\paste.png" />
+    <Resource Include="Images\pause-button.png" />
+    <Resource Include="Images\play-button.png" />
+    <Resource Include="Images\question-mark-10911.png" />
+    <Resource Include="Images\right-arrow.png" />
+    <Resource Include="Images\USER.png" />
+    <Resource Include="Images\whitepage.png" />
+  </ItemGroup>
+
+</Project>

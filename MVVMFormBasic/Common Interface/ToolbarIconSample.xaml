@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="MVVMFormBasic.Common_Interface.ToolbarIconSample"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MVVMFormBasic.Common_Interface"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <DockPanel>
+        <ToolBarTray DockPanel.Dock="Right" Orientation="Vertical">
+            <ToolBar>
+                <!--ToolBar.OverflowMode default value is AsNeeded-->
+                <Button Command="Cut" ToolTip="Cut selection to Windows Clipboard." ToolBar.OverflowMode="Always">
+                    <Image Width="20" Source="/Images/cut.png" />
+                </Button>
+                <Button Command="Copy" ToolTip="Copy selection to Windows Clipboard." ToolBar.OverflowMode="AsNeeded">
+                    <Image  Width="20" Source="/Images/copy.png" />
+                </Button>
+                <Button Command="Paste" ToolTip="Paste from Windows Clipboard." ToolBar.OverflowMode="Never">
+                   <!--Combine Image control and a TextBlock control inside of a StackPanel,-->
+                    <StackPanel Orientation="Horizontal">
+                        <Image  Width="20" Source="/Images/paste.png" />
+                        <TextBlock Margin="3,0,0,0">Paste</TextBlock>
+                    </StackPanel>
+                </Button>
+            </ToolBar>
+        </ToolBarTray>
+        <TextBox AcceptsReturn="True" />
+    </DockPanel>
+</UserControl>

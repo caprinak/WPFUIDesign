@@ -1,0 +1,362 @@
+﻿<Window x:Class="MVVMFormBasic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:uc="clr-namespace:MVVMFormBasic.Views"
+        xmlns:db="clr-namespace:MVVMFormBasic.Views.DataBindings"
+        xmlns:cm="clr-namespace:MVVMFormBasic.Views.Commands"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:MVVMFormBasic" 
+        xmlns:dl="clr-namespace:MVVMFormBasic.Dialogs"
+        xmlns:ci="clr-namespace:MVVMFormBasic.Common_Interface"
+        xmlns:rtc="clr-namespace:MVVMFormBasic.RichTextControls"
+        xmlns:lv="clr-namespace:MVVMFormBasic.ListView"
+        xmlns:tv="clr-namespace:MVVMFormBasic.TreeView"
+        xmlns:dg="clr-namespace:MVVMFormBasic.DataGrid"
+        xmlns:st="clr-namespace:MVVMFormBasic.Styles"
+        xmlns:media="clr-namespace:MVVMFormBasic.Audio_and_Video"
+        xmlns:ss="clr-namespace:MVVMFormBasic.SpeechSynthesis"
+        xmlns:msc="clr-namespace:MVVMFormBasic.MISC"
+        xmlns:mcc="clr-namespace:MVVMFormBasic.Misc_Controls"
+        xmlns:tc="clr-namespace:MVVMFormBasic.TabControl"
+        xmlns:lc="clr-namespace:MVVMFormBasic.ListControls"
+        xmlns:cb="clr-namespace:MVVMFormBasic.CsharpBasics"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        
+        Background="{DynamicResource WindowBackgroundBrush}">
+    <!--<dl:CustomInputDialog></dl:CustomInputDialog>-->
+    <!--TAB CONTROL FOR PAGE SWITCH-->
+    <Grid>
+        <TabControl TabStripPlacement="Left">
+            <TabItem Header="General">
+                <Label Content="Content goes here..." />
+            </TabItem>
+            <TabItem Header="Context Menu"  >
+                <!--<ci:ContextMenuWithCommandsSample></ci:ContextMenuWithCommandsSample>-->
+                <Grid>
+                    <!--case 1-->
+                    <StackPanel  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20">
+                        <Button  Click="MenuWithCommandsSampleClick">MenuWithCommandsSample</Button>
+                        <!--case 2-->
+                        <Button  Click="ContextMenuManuallyInvokedSample">Invoke from Code-behind</Button>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Toolbar">
+                <DockPanel>
+                    <ci:ToolbarSample DockPanel.Dock="Top"></ci:ToolbarSample>
+                    <ci:ToolbarIconSample Width="200" DockPanel.Dock="Right"></ci:ToolbarIconSample>
+                    <ci:ToolbarCustomControlsSample DockPanel.Dock="Bottom"></ci:ToolbarCustomControlsSample>
+                </DockPanel>
+            </TabItem>
+            <TabItem Header="Status bar">
+                <DockPanel>
+                    <ci:StatusBarAdvancedSample></ci:StatusBarAdvancedSample>
+                </DockPanel>
+            </TabItem>
+            <TabItem Header="Rich Text Control">
+                <StackPanel>
+                    <Button Click="FlowDocumentScrollViewerZoomSample_Click">FlowDocumentScrollViewerZoomSample</Button>
+                    <Button Click="FlowDocumentPageViewerZoomSample_Click">FlowDocumentPageViewerZoomSample</Button>
+                    <Button Click="FlowDocumentSearchSample_Click">FlowDocumentSearchSample</Button>
+                    <Button Click="FlowDocumentReaderSample_Click">FlowDocumentReaderSample</Button>
+                    <Button Click="ExtendedFlowDocumentSample_Click">ExtendedFlowDocumentSample</Button>
+                    <rtc:CodeBehindFlowDocumentSample></rtc:CodeBehindFlowDocumentSample>
+                    <rtc:BlockUIContainerSample></rtc:BlockUIContainerSample>
+                </StackPanel>
+            </TabItem>
+            <!--<StackPanel>
+                            <rtc:FlowDocumentScrollViewerZoomSample></rtc:FlowDocumentScrollViewerZoomSample>
+                        </StackPanel>-->
+            <TabItem Header="List View">
+                <StackPanel>
+                    <!--<lv:ListViewBasicSample></lv:ListViewBasicSample>
+                    <lv:ListViewDataBindingSample></lv:ListViewDataBindingSample>
+                    <lv:ListViewItemTemplateSample></lv:ListViewItemTemplateSample>-->
+                    <lv:ListViewGridViewSample></lv:ListViewGridViewSample>
+                    <lv:ListViewGroupSample></lv:ListViewGroupSample>
+                    <lv:ListViewSortingSample></lv:ListViewSortingSample>
+                    <lv:ListViewColumnSortingSample></lv:ListViewColumnSortingSample>
+                    <lv:FilteringSample></lv:FilteringSample>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Tree View">
+                <StackPanel Orientation="Horizontal">
+                    <!--<StackPanel>
+                        <TextBlock>Tree View Sample with Image and other control</TextBlock>
+                        <tv:TreeViewCustomItemsSample></tv:TreeViewCustomItemsSample>
+                    </StackPanel>-->
+                    <StackPanel>
+                        <TextBlock>Tree View Sample DataBinding</TextBlock>
+                        <tv:TreeViewDataBindingSample></tv:TreeViewDataBindingSample>
+                    </StackPanel>
+                    <StackPanel>
+                        <TextBlock>TreeView Multiple Templates Sample</TextBlock>
+                        <tv:TreeViewMultipleTemplatesSample></tv:TreeViewMultipleTemplatesSample>
+                    </StackPanel>
+                    <StackPanel>
+                        <TextBlock>TreeView Selection Expansion Sample</TextBlock>
+                        <tv:TreeViewSelectionExpansionSample></tv:TreeViewSelectionExpansionSample>
+                    </StackPanel>
+                    <StackPanel>
+                        <TextBlock>TreeView Lazy Loading Sample</TextBlock>
+                        <tv:LazyLoadingSample></tv:LazyLoadingSample>
+                    </StackPanel>
+                </StackPanel>           
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>Data Grid</TabItem.Header>
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel>
+                        <dg:SimpleDataGridSample></dg:SimpleDataGridSample>
+                        <dg:DataGridColumnsSample></dg:DataGridColumnsSample>
+                        <dg:DataGridDetailsSample></dg:DataGridDetailsSample>
+                    </StackPanel>
+                    <StackPanel>
+                        <dg:DataGridDetailsAdvanced></dg:DataGridDetailsAdvanced>
+                    </StackPanel>
+                </StackPanel>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>Styling WPF</TabItem.Header>
+                <StackPanel>
+                    <!--<st:SimpleStyleSample></st:SimpleStyleSample>
+                    <st:StyleTriggersSample></st:StyleTriggersSample>
+                    <st:StyleDataTriggerSample></st:StyleDataTriggerSample>
+                    <st:StyleEventTriggerSample></st:StyleEventTriggerSample>-->
+                    <st:StyleMultiTriggerSample></st:StyleMultiTriggerSample>
+                    <st:StyleMultiDataTriggerSample></st:StyleMultiDataTriggerSample>
+                    <st:StyleTriggerEnterExitActions></st:StyleTriggerEnterExitActions>
+                </StackPanel>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>Multimedia</TabItem.Header>
+                <StackPanel>
+                    <media:SystemSoundsSample></media:SystemSoundsSample>
+                    <media:MediaPlayerAudioSample></media:MediaPlayerAudioSample>
+                    <!--<media:MediaPlayerAudioControlSample></media:MediaPlayerAudioControlSample>-->
+                    <media:AudioVideoPlayerCompleteSample></media:AudioVideoPlayerCompleteSample>
+                </StackPanel>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>Speech Synthesis</TabItem.Header>
+                <StackPanel>
+                    <ss:SpeechSynthesisSample></ss:SpeechSynthesisSample>
+                    <ss:SpeechSynthesisPromptBuilderSample></ss:SpeechSynthesisPromptBuilderSample>
+                    <!--<ss:SpeechRecognitionTextSample>Speech Recognition</ss:SpeechRecognitionTextSample>-->
+                </StackPanel>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>MISC</TabItem.Header>
+                <StackPanel>
+                    <!--<msc:DispatcherTimerSample></msc:DispatcherTimerSample>-->
+                    <msc:BackgroundWorkerSample></msc:BackgroundWorkerSample>
+                    <msc:BackgroundWorkerCancellationSample></msc:BackgroundWorkerCancellationSample>
+                    </StackPanel>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>Misc controls</TabItem.Header>
+                <StackPanel Orientation="Horizontal">
+                     <mcc:BorderSample></mcc:BorderSample>
+                    <mcc:SliderSample></mcc:SliderSample>
+                    <StackPanel>
+                        <Button Click="Button_ProgressBar_Click">Progress Bar</Button>
+                        <Button Click="Button_Open_Browser_Click">Open Browser</Button>
+                    </StackPanel>
+                   
+                   
+                </StackPanel>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>Misc controls 2</TabItem.Header>
+                <StackPanel Orientation="Horizontal" >
+                    <mcc:CalendarControlSample></mcc:CalendarControlSample>
+                    <StackPanel Width="400">
+                        <mcc:CalendarSelectionSample></mcc:CalendarSelectionSample>
+                        <mcc:CalendarSelectedDatesSample></mcc:CalendarSelectedDatesSample>
+                        <mcc:CalendarBlockedoutDatesSample></mcc:CalendarBlockedoutDatesSample>
+                        
+                    </StackPanel>
+                    <StackPanel>
+                        <UserControl >
+                            <Viewbox Height="300" Width="600">
+                                <Calendar DisplayMode="Year" />
+                            </Viewbox>
+                        </UserControl>
+                    </StackPanel>
+                   
+                </StackPanel>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>Misc controls 3</TabItem.Header>
+                <StackPanel Orientation="Horizontal">
+                    <mcc:DatePickerSample></mcc:DatePickerSample>
+                    <mcc:ExpanderSample></mcc:ExpanderSample>
+                </StackPanel>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>Tab Controls</TabItem.Header>
+                <StackPanel>
+                    <tc:TabControlWithCustomHeadersSample></tc:TabControlWithCustomHeadersSample>
+                    <tc:ControllingTheTabControlSample></tc:ControllingTheTabControlSample>
+                    <tc:ItemsControlDataBindingSample></tc:ItemsControlDataBindingSample>
+                </StackPanel>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>List Controls</TabItem.Header>
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel>
+                        <lc:ListBoxDataBindingSample></lc:ListBoxDataBindingSample>
+                        <lc:ComboBoxCustomContentSample></lc:ComboBoxCustomContentSample>
+                        <lc:ComboBoxDataBindingSample></lc:ComboBoxDataBindingSample>
+                    </StackPanel>
+                    <StackPanel>
+                        <lc:ComboBoxEditableSample></lc:ComboBoxEditableSample>
+                        <lc:ComboBoxSelectionSample></lc:ComboBoxSelectionSample>
+                    </StackPanel>
+                </StackPanel>
+            </TabItem>
+            <TabItem>
+                    <TabItem.Header>Csharp</TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <cb:PropertyInfoTest></cb:PropertyInfoTest>
+                    </StackPanel>
+                </TabItem>
+        </TabControl>
+    </Grid>
+    <!--<Grid> 
+    -->
+    <!--<views:StudentView x:Name="StudentViewCtrl" />
+    <views:StudentDataTemplateView x:Name="StudentViewCtrl" />
+    <views:BasicXaml x:Name="BasicXamlCtrl" />
+    <views:CommandLineTest x:Name="CommandLineTestCtrl" />-->
+    <!--<views:CultureInfoPractice x:Name="CultureInfoPractice" />-->
+    <!--<views:TextBlockCtrl x:Name="TextBlockCtrl"-->
+    <!--<views:LabelControl x:Name="LabelCtrl" />-->
+    <!--<views:ButtonControl x:Name="ButtonCtrl" />-->
+    <!--<views:CheckBoxCtrl x:Name="CheckboxCtrl"/>-->
+    <!--<views:RadioButtonCtrl x:Name="RadioCtrl"/>-->
+    <!--<views:PasswordBox x:Name="PracticeCtrl"/>-->
+    <!--<views:ImagesControl x:Name="PracticeCtrl"/>-->
+    <!--<views:ToolTipCtrl x:Name="PracticeCtrl"/>-->
+    <!--
+        <views:TabOrder x:Name="PracticeCtrl"/>-->
+    <!--<views:Canvas x:Name="PracticeCtrl"/>-->
+    <!--<views:WrapPanel x:Name="PracticeCtrl"/>-->
+    <!--<views:Grid x:Name="PracticeCtrl" />-->
+    <!--<uc:GridContactForm x:Name="PracticeCtrl" />-->
+    <!--<Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="*" />
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>-->
+    <!--<db:ValueConverter></db:ValueConverter>-->
+    <!--<db:ChangesReflection></db:ChangesReflection>-->
+    <!--<db:StringFormat></db:StringFormat>-->
+    <!--<cm:CustomCommandSample></cm:CustomCommandSample>-->
+    <!--<dl:MessageBoxCtrl></dl:MessageBoxCtrl>-->
+    <!--<stackpanel grid.row="1">
+            <uc:limitedinputusercontrol title="enter title:" maxlength="30" height="50" />
+            <uc:limitedinputusercontrol title="enter description:" maxlength="140" grid.row="1" />
+        <stackpanel horizontalalignment="center" verticalalignment="center">
+            <textblock>hello, world. my name is:</textblock>
+            <textblock name="lblname" margin="0,10" textalignment="center" fontweight="bold">[no name entered]</textblock>
+            <button name="btnentername" click="btnentername_click">enter name...</button>
+        </stackpanel>
+        <stackpanel>
+            <button x:name="btnmenu" click="btnmenu_click" width="80">open sample menu</button>
+        </stackpanel>
+    </stackpanel>-->
+    <!-- DATACONTEXT BINDING
+        
+        In the XAML, we use this fact to bind to several of the Window properties, including Title, Width 
+        and Height. Since the window has a DataContext, which is passed down to the child controls, 
+        we don't have to define a source on each of the bindings - we just use the values as if they
+        were globally available.-->
+    <!--<StackPanel Grid.Row="2" Margin="15">
+            <WrapPanel>
+                <TextBlock Text="Window title:  " />
+                <TextBox Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" Width="150" />
+            </WrapPanel>
+            <WrapPanel Margin="0,10,0,0">
+                <TextBlock Text="Window dimensions: " />
+                <TextBox Text="{Binding Width}" Width="50" />
+                <TextBlock Text=" x " />
+                <TextBox Text="{Binding Height}" Width="50" />
+            </WrapPanel>
+        </StackPanel>-->
+    <!--<Grid Grid.Row="2">
+            <db:UpdateSourceTrigger/>
+        </Grid>
+        <StackPanel Grid.Row="3" Margin="10">
+            <TextBox Name="txtValue" />
+            <WrapPanel Margin="0,10">
+                <TextBlock Text="Value: " FontWeight="Bold" />
+                <TextBlock Name="lblValue" />
+            </WrapPanel>
+        </StackPanel>-->
+    <!--
+    </Grid>-->
+    <!--WPF introduces a very handy concept: The ability to store data as a resource, either locally for a 
+ control, locally for the entire window or globally for the entire application This allows you to place
+ data in one place and then use it from or several other places, which is very useful.-->
+    <!--<Window.Resources>
+        <sys:String x:Key="strHelloWorld">Hello, world!</sys:String>
+    </Window.Resources>-->
+    <!--This time, we've added a couple of extra resources, so that our Window now contains a simple string, 
+    an array of strings and a LinearGradientBrush. The string is used for the label, the array of strings is 
+    used as items for the ComboBox control and the gradient brush is used as background for the entire window.
+    So, as you can see, pretty much anything can be stored as a resource.-->
+    <Window.Resources>
+        <sys:String x:Key="WindowComboBoxTitle">Items:</sys:String>
+        <x:Array x:Key="ComboBoxItems" Type="sys:String">
+            <sys:String>Coffee Salt</sys:String>
+            <sys:String>Capuchino</sys:String>
+            <sys:String>Tea lasse</sys:String>
+        </x:Array>
+        <LinearGradientBrush x:Key="WindowBackgroundBrush">
+            <GradientStop Offset="0" Color="Silver"/>
+            <GradientStop Offset="1" Color="Gray"/>
+        </LinearGradientBrush>
+    </Window.Resources>
+    <!--<Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+    <StackPanel Grid.Column="1" Margin="10" >
+        <Label Content="{StaticResource WindowComboBoxTitle}" />
+        <ComboBox ItemsSource="{StaticResource ComboBoxItems}" />
+         <Button Name="btnClickMe" Click="btnClickMe_Click">Click me!</Button>
+            <Button HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click">
+                Do something bad!
+            </Button>
+            <ListBox Name="lbResult" />
+        </StackPanel>-->
+    <!--If you only need a given resource for a specific control, you can make it more local by adding it to
+        this specific control, instead of the window. when you store them in App.xaml, they are globally accessible
+        in all of windows and user controls of the project.  WPF will automatically go up the scope, from the local
+        control to the window and then to App.xaml, to find a given resource-->
+    <!--
+        <StackPanel Name="pnlMain" Margin="10">
+        <StackPanel.Resources>
+            <sys:String x:Key="ComboBoxTitle">Items from Custom:</sys:String>
+        </StackPanel.Resources>
+        <Label Content="{StaticResource AppComboBoxTitle}" />
+    </StackPanel>
+        
+    </Grid>-->
+    <!--The x:class attribute tells the XAML file which class to use, in this case MainWindow,
+    which Visual Studio has created for us as well-->
+    <!--You will also notice that Visual Studio has created a Grid control for us inside the Window. 
+    The Grid is one of the WPF panels , and while it could be any panel or control,  the Window can only have ONE
+     child control, so a Panel, which in turn can contain multiple child controls, is usually a good choice.-->
+    <!--<StackPanel Margin="10">
+        <TextBlock Text="{StaticResource strHelloWorld}" FontSize="46" />
+        <TextBlock>Just another "<TextBlock Text="{StaticResource strHelloWorld}" />" example, but with resources!</TextBlock>
+        <CheckBox Content="${And more {StaticResource strHelloWorld}}">  </CheckBox>
+    </StackPanel>-->
+</Window>

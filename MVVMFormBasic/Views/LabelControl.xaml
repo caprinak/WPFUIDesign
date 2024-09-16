@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="MVVMFormBasic.Views.LabelControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MVVMFormBasic.Views"
+             mc:Ignorable="d" 
+             Height="200" Width="300">
+    <!--The screenshot shows our sample dialog as it looks when the Alt key is pressed. Try running it, holding down the [Alt] key and
+    then pressing N and M. You will see how focus is moved between the two textboxes.
+    So, there's several new concepts here. First of all, we define the access key by placing an underscore (_) before the character. 
+    It doesn't have to be the first character, it can be before any of the characters in your label content. The common practice is to
+    use the first character that's not already used as an access key for another control.
+
+We use the Target property to connect the Label and the designated control. We use a standard WPF binding for this, using the ElementName
+    property. The binding is based on the name of the control, so if you change 
+    this name, you will also have to remember to change the binding.-->
+    
+    <Grid>
+        <StackPanel Margin="10">
+            <Label Target="{Binding ElementName=txtName}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="http://cdn1.iconfinder.com/data/icons/fatcow/16/bullet_green.png" />
+                    <AccessText Text="_Name:" />
+                </StackPanel>
+            </Label>
+
+            <!--The AcceptsReturn makes the TextBox into a multi-line control by allowing the use of the Enter/Return key to go to the next
+            line, and the TextWrapping property, which will make the text wrap automatically when the end of a line is reached.
+            As an added bonus, the TextBox control actually comes with automatic spell checking for English and a couple of other languages
+            (as of writing, English, French, German, and Spanish languages are supported). It works much like in Microsoft Word-->
+            <TextBox Name="txtName" AcceptsReturn="True" TextWrapping="Wrap"  SpellCheck.IsEnabled="True"/>
+            <Label Target="{Binding ElementName=txtMail}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="http://cdn1.iconfinder.com/data/icons/fatcow/16/bullet_blue.png" />
+                    <AccessText Text="_Mail:" />
+                </StackPanel>
+            </Label>
+            <TextBox Name="txtMail"  IsReadOnly="True"/>
+            <DockPanel Margin="10">
+                <TextBox SelectionChanged="TextBox_SelectionChanged" DockPanel.Dock="Top" />
+                <TextBox Name="txtStatus" AcceptsReturn="True" TextWrapping="Wrap" IsReadOnly="True" />
+
+            </DockPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

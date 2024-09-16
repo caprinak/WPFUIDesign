@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="MVVMFormBasic.Styles.StyleTriggerEnterExitActions"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MVVMFormBasic.Styles"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <!--have a green square-->
+        <Border Background="LightGreen" Width="100" Height="100" BorderBrush="Green">
+            <Border.Style>
+                <Style TargetType="Border">
+                    <Style.Triggers>
+                        <!--has a trigger that fires once the mouse is over-->
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Trigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                      <!--animate the thickness of the border from its default 0 to a thickness of 3, and then we 
+                      animate the width and height from 100 to 125. All happens simultaneously, because they are a part of
+                    the same StoryBoard, and even at slightly different speeds, since we have full control of how long
+                    each animation should run.-->
+                                        <ThicknessAnimation Duration="0:0:0.400" To="3" Storyboard.TargetProperty="BorderThickness" />
+                                        <DoubleAnimation Duration="0:0:0.300" To="125" Storyboard.TargetProperty="Height" />
+                                        <DoubleAnimation Duration="0:0:0.300" To="125" Storyboard.TargetProperty="Width" />
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.EnterActions>
+                            <Trigger.ExitActions>
+        <!--use the ExitActions to reverse the changes we made, with animations that goes back to the default values. 
+         We run the reversing animations slightly faster, because we can and because it looks cool.-->
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ThicknessAnimation Duration="0:0:0.250" To="0" Storyboard.TargetProperty="BorderThickness" />
+                                        <DoubleAnimation Duration="0:0:0.150" To="100" Storyboard.TargetProperty="Height" />
+                                        <DoubleAnimation Duration="0:0:0.150" To="100" Storyboard.TargetProperty="Width" />
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.ExitActions>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Border.Style>
+        </Border>
+    </Grid>
+</UserControl>

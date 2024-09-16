@@ -1,0 +1,39 @@
+﻿<Window x:Class="MVVMFormBasic.Dialogs.InputDialogSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVMFormBasic.Dialogs"
+        mc:Ignorable="d"
+        Title="Input" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen"
+        ContentRendered="Window_ContentRendered">
+    <!--Removed the Width and Height properties of the Window and instead set it to automatically resize to match the content
+    . For a dialog like this, and probably for most other non-main windows, you should change this value to 
+    CenterScreen or CenterOwne-->
+    <Grid Margin="15">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Image Source="/WpfTutorialSamples;component/Images/question32.png" Width="32" Height="32" Grid.RowSpan="2" Margin="20,0" />
+
+        <Label Name="lblQuestion" Grid.Column="1">Question:</Label>
+        <TextBox Name="txtAnswer" Grid.Column="1" Grid.Row="1" MinWidth="250">Answer</TextBox>
+
+        <WrapPanel Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Right" Margin="0,15,0,0">
+            <!--IsCancel tells WPF that if the user clicks this button, the DialogResult of the Window should be set to false 
+            which will also close the window. This also ensures that the user can press the Esc key
+            The IsDefault property gives focus to the Ok button and also ensures that if the user presses the Enter key
+            on their keyboard, this button is activated-->
+            <Button IsDefault="True" Name="btnDialogOk" Click="btnDialogOk_Click" MinWidth="60" Margin="0,0,10,0">_Ok</Button>
+            <Button IsCancel="True" MinWidth="60">_Cancel</Button>
+            
+        </WrapPanel>
+    </Grid>
+</Window>

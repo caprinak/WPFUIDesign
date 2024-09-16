@@ -1,0 +1,108 @@
+﻿<UserControl x:Class="MVVMFormBasic.Views.StudentView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:vml = "clr-namespace:MVVMFormBasic.VML" 
+             vml:ViewModelLocator.AutoHookedUpViewModel = "True" 
+             xmlns:local="clr-namespace:MVVMFormBasic.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="900" d:DesignWidth="800">
+    
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.Resources>
+           
+        </Grid.Resources>
+        <StackPanel Grid.Row="0" HorizontalAlignment="Left" >
+            <ListBox ItemsSource="{Binding Path= Students}"  SelectedItem = "{Binding SelectedStudent}" >
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" >
+                            <TextBox Text= "{Binding Path= FirstName, Mode = TwoWay}" Width="100" Margin="0 5 5 3" />
+                            <TextBox Text= "{Binding Path= LastName, Mode = TwoWay}" Width="100" Margin="0 5 5 3" />
+                            <TextBlock Text="{Binding Path= FullName, Mode =OneWay}" Margin="0 5 3 5"/>
+                            
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+                
+            </ListBox>
+            <Button Content = "Delete" 
+            Command = "{Binding DeleteCommand}"
+            HorizontalAlignment = "Left" 
+            VerticalAlignment = "Top" 
+            Width = "75" />
+        </StackPanel>
+ 
+        <StackPanel Grid.Row="1">
+            <Grid>
+                <Grid.Resources>
+                    <Style TargetType="Button">
+                        <Setter Property="Width" Value="150"></Setter>
+                        <Setter Property="Background" Value="Aquamarine"></Setter>
+                    </Style>
+                    <Style TargetType="TextBox">
+                        <Setter Property="Width" Value="150"></Setter>
+                        <Setter Property="Background" Value="Beige"></Setter>
+                    </Style>
+                </Grid.Resources>
+                <Button Content="Hit me" HorizontalAlignment="Left"></Button>
+                <Button Content="Touch me" HorizontalAlignment="Right"></Button>
+                <TextBox Width="200"></TextBox>
+            </Grid>
+            <StackPanel>
+                <StackPanel.Resources>
+                    <Style TargetType="Button" x:Key="btnStyleAlmond">
+                        <Setter Property="Background" Value="BlanchedAlmond"></Setter>
+                    </Style>
+                    <Style TargetType="Button" x:Key="btnStyleOrange">
+                        <Setter Property="Background" Value="Orange"></Setter>
+                    </Style>
+                    <Style x:Key="DialogButtonStyle" TargetType="Button">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Grid>
+                                        <Ellipse Fill="{TemplateBinding Background}"
+             Stroke="{TemplateBinding BorderBrush}"/>
+                                        <ContentPresenter HorizontalAlignment="Center"
+                          VerticalAlignment="Center"/>
+                                    </Grid>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </StackPanel.Resources>
+                <Button Style="{StaticResource btnStyleAlmond}">Free Education</Button>
+                <Button Style="{StaticResource btnStyleOrange}">Free Education</Button>
+                <Button >Share for better</Button>
+                <Button Style="{StaticResource DialogButtonStyle}" Content="Control template"/>
+            </StackPanel>
+        </StackPanel>
+        <DockPanel Grid.Row="2">
+            <DockPanel.Resources>
+                
+                <ControlTemplate x:Key="templateButton">
+                    <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="100">
+                        <Image Source="Images/logo.jpg" Width="200" Stretch="Uniform" Height="200"></Image>
+                        <TextBlock Text="{Binding}"></TextBlock>
+                    </StackPanel>
+                </ControlTemplate>
+                <Style TargetType="Button">
+                    <Setter Property="Height" Value="150"></Setter>
+                </Style>
+ 
+            </DockPanel.Resources>
+            <Button x:Name="btn1" Template="{StaticResource templateButton}">
+            </Button>
+            <Button x:Name="btn2" Template="{StaticResource templateButton}"/> 
+            <Button DockPanel.Dock="Right" Content="click" Click="Button_Click" Width="100" Height="100"></Button>
+        </DockPanel>
+    </Grid>
+</UserControl>

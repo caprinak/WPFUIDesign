@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMFormBasic", "MVVMFormBasic\MVVMFormBasic.csproj", "{BE20C95F-2D9C-4E72-BFE0-563872E2CC63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE20C95F-2D9C-4E72-BFE0-563872E2CC63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE20C95F-2D9C-4E72-BFE0-563872E2CC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE20C95F-2D9C-4E72-BFE0-563872E2CC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE20C95F-2D9C-4E72-BFE0-563872E2CC63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAFC9248-3E22-4FDC-9C6D-6315F77B17DB}
+	EndGlobalSection
+EndGlobal

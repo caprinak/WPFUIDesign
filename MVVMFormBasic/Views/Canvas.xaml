@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="MVVMFormBasic.Views.Canvas"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MVVMFormBasic.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <!--<Canvas>
+            <Button Canvas.Left="10">Top left</Button>
+            <Button Canvas.Right="10">Top right</Button>
+            <Button Canvas.Left="10" Canvas.Bottom="10">Bottom left</Button>
+            <Button Canvas.Right="10" Canvas.Bottom="10">Bottom right</Button>
+        </Canvas>-->
+
+        <!--These properties allow you to specify the position relative to the four edges of the Canvas.
+        By default, they are all set to NaN (Not a Number), which will make the Canvas place them in the upper left corner
+        
+        As mentioned, since the Canvas gives you complete control of positions, it won't really care whether or not there's
+        enough room for all your controls or if one is on top of another. This makes it a bad choice for pretty much any
+        kind of dialog design, but the Canvas is, as the name implies, great for at least one thing: Painting.
+        
+        + ZIndex:
+        , if two controls within a Canvas overlaps, the one defined last in the markup will take precedence and overlap 
+        the other(s). However, by using the attached ZIndex property on the Panel class, this can easily be changed.
+        -->
+        <StackPanel>
+            <Canvas>
+                <Ellipse Fill="Gainsboro" Canvas.Left="25" Canvas.Top="25" Width="200" Height="200" />
+                <Rectangle Fill="LightBlue" Canvas.Left="25" Canvas.Top="25" Width="50" Height="50" />
+                <Rectangle Fill="LightCoral" Canvas.Left="50" Canvas.Top="50" Width="50" Height="50" />
+                <Rectangle Fill="LightCyan" Canvas.Left="75" Canvas.Top="75" Width="50" Height="50" />
+            </Canvas>
+            <Canvas>
+                <Ellipse Fill="Gainsboro" Canvas.Right="55" Canvas.Top="25" Width="200" Height="200" />
+                <Rectangle Fill="LightBlue" Canvas.Right="25" Canvas.Top="25" Width="50" Height="50" />
+                <Rectangle Fill="LightCoral" Canvas.Right="50" Canvas.Top="50" Width="50" Height="50" />
+                <Rectangle Fill="LightCyan" Canvas.Right="75" Canvas.Top="75" Width="50" Height="50" />
+            </Canvas>
+        </StackPanel>
+     
+    </Grid>
+</UserControl>

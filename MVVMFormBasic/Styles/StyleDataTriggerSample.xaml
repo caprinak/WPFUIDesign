@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="MVVMFormBasic.Styles.StyleDataTriggerSample"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MVVMFormBasic.Styles"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <StackPanel Margin="20" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <CheckBox Name="cbSample" Content="Hello, world?" />
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" FontSize="48">
+            <TextBlock.Style>
+                <Style TargetType="TextBlock">
+                    <!--Supply a default style, where the text is "No" and the foreground color is red-->
+                    <Setter Property="Text" Value="No No" />
+                    <Setter Property="Foreground" Value="Red" />
+                    <Style.Triggers>
+                        <!--Using a DataTrigger, we bind the TextBlock to the IsChecked property of the CheckBox.
+                        supply a style for when the IsChecked property of the CheckBox is changed to True, 
+                        in which case we make it green with a text saying "Yes!"-->
+                        <DataTrigger Binding="{Binding ElementName=cbSample, Path=IsChecked}" Value="True">
+                            <Setter Property="Text" Value="Hell Yes!" />
+                            <Setter Property="Foreground" Value="Green" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style></TextBlock>
+    </StackPanel>
+</UserControl>

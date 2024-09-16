@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="MVVMFormBasic.Misc_Controls.CalendarControlSample"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MVVMFormBasic.Misc_Controls"
+             mc:Ignorable="d" 
+             Height="800" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+    <!--get a full list of the dates within the selected month, including the possibility to jump to
+        previous and next months using the arrows in the top of the control-->
+        <Viewbox Stretch="Uniform" StretchDirection="UpOnly" Margin="10">
+            <Calendar />
+        </Viewbox>
+        <Viewbox Grid.Row="1">
+            <Calendar DisplayDate="01.01.2014" />
+        </Viewbox>
+        <Viewbox Grid.Row="2">
+     <!--In the SingleRange SelectionMode, you can select an entire range of dates, either by holding
+            down the left mouse button and dragging from one date to another or by holding down the Ctrl
+            or Shift keys while clicking several dates, much like multi selection works in all parts of Windows.-->
+            <Calendar SelectionMode="SingleRange" />
+            <!--<Calendar SelectionMode="MultipleRange" />-->
+        </Viewbox>
+        <!--
+         the Calendar doesn't take up all the available space. In fact, even if you give it a large 
+        width and height, the actual calendar part will still only take up the amount of space you 
+        see on the screenshot, and if you set either of the values very low, the calendar will only 
+        be partially visibleThis fixed size behavior is not very typical WPF, where things usually 
+    stretch to fill out available space,
+        
+        It can be a bit annoying to work with if you have a designated amount of space available for the 
+        calendar which you want it to fill out. Fortunately for us, everything in WPF is scalable but in the 
+        case of the Calendar control, it needs a bit of help. We'll use the Viewbox control for this purpose
+        the Calendar control now scales up to the point where it uses all the available space in the width.
+        The scaling is performed on all parts of the control, including font sizes and border widths
+        
+        -->
+    </Grid>
+</UserControl>

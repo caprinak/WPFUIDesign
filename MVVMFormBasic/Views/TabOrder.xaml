@@ -1,0 +1,52 @@
+﻿<UserControl x:Class="MVVMFormBasic.Views.TabOrder"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MVVMFormBasic.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <!--the underscore (_) just before the F character - this will turn the F key into the designated Access Key
+            for this Button control.
+            While holding the Alt key down, you can now press one of the Access Keys (e.g. N, O or S) to activate the
+            specific button. It will react as if it was clicked with the mouse.
+            Access Keys are fine for single elements in a dialog/window, but they are even more useful in the
+            traditional Windows Menus, where you will usually need to click your way through a hierarchy of menu items
+            before reaching the one you need-->
+
+            <!--  we can use the Target property of the Label to tie it together with the TextBox
+            Notice how the Access Key is specified for the Label controls and then tied to the relevant TextBox control
+            using the Target property, where we use an ElementName based Binding to do the actual work.-->
+            <Label Content="_FirstName:" Target="{Binding ElementName=txtFirstName}"></Label>
+            <TextBox Name="txtFirstName"  TabIndex="0" />
+            <Label>Street name:</Label>
+            <TextBox TabIndex="2" />
+            <Label>City:</Label>
+            <!--TabIndex is used to define the order, while the IsTabStop property will force
+            WPF to skip a control when tabbing through the Window.-->
+            <TextBox TabIndex="5" IsReadOnly="True" IsTabStop="True" Background="Gainsboro" />
+        </StackPanel>
+        <StackPanel Grid.Column="2">
+            <Label>Last name:</Label>
+            <TextBox TabIndex="1" />
+            <Label>Zip Code:</Label>
+            <TextBox TabIndex="4" />
+        </StackPanel>
+        <Button Grid.Row="1" HorizontalAlignment="Right" Width="80">Add</Button>
+        <Button Grid.Row="1" Grid.Column="2" HorizontalAlignment="Left" Width="80">Cancel</Button>
+    </Grid>
+</UserControl>
+<!--By using Access Keys in your windows/dialogs, you are making it much easier for people to navigate
+    using only their keyboards. This is especially popular among power-users, who will use the keyboard
+    in favor of the mouse as much as possible. You should always use Access Keys, especially for your menus.-->

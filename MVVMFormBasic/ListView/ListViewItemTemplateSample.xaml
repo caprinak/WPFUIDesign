@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="MVVMFormBasic.ListView.ListViewItemTemplateSample"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MVVMFormBasic.ListView"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <ListView Margin="10" Name="lvDataBinding">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+                        <TextBlock Text="Name: " />
+                        <TextBlock Text="{Binding Name}" FontWeight="Bold" />
+                        <TextBlock Text=", " />
+                        <TextBlock Text="Age: " />
+                        <TextBlock Text="{Binding Age}" FontWeight="Bold" />
+                        <TextBlock Text=" (" />
+                        <TextBlock Text="{Binding Mail}" TextDecorations="OverLine" Foreground="Goldenrod" Cursor="UpArrow" />
+                        <TextBlock Text=")" />
+                    </WrapPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate> 
+            <!--Using an ItemTemplate and data binding, we produced a pretty cool ListView control. However, it still looks 
+            a lot like a ListBox. A very common usage scenario for a ListView is to have columns, sometimes (e.g. in WinForms)
+            referred to as a details view. WPF comes with a built-in view class to handle this-->
+        </ListView>
+    </Grid>
+</UserControl>

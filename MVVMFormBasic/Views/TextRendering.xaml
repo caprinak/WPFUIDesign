@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="MVVMFormBasic.Views.TextRendering"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MVVMFormBasic.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <!--WPF does a lot more things on its own when compared to other UI frameworks like WinForms, 
+    which will use the Windows API for many, many things. This is also clear when it comes to the
+    rendering of text - WinForms uses the GDI API from Windows, while WPF has its own text rendering
+    implementation, to better support animations as well as the device independent nature of WPF.
+
+    Unfortunately, this led to text being rendered a bit blurry, especially in small font sizes.
+    With .NET framework 4.0, Microsoft also decided to give more control of text rendering to the
+    programmer, by introducing the TextOptions class with the TextFormattingMode and TextRenderingMode properties.
+    
+    -->
+    <Grid>
+        <StackPanel>
+        <StackPanel Margin="10">
+            <Label TextOptions.TextFormattingMode="Ideal" FontSize="9">TextFormattingMode.Ideal, small text</Label>
+            <Label TextOptions.TextFormattingMode="Display" FontSize="9">TextFormattingMode.Display, small text</Label>
+            <Label TextOptions.TextFormattingMode="Ideal" FontSize="20">TextFormattingMode.Ideal, large text</Label>
+            <Label TextOptions.TextFormattingMode="Display" FontSize="20">TextFormattingMode.Display, large text</Label>
+        </StackPanel>
+            <!--You can choose between Ideal (the default value) and Display. You would normally want to leave this 
+            property untouched, since the Ideal setting will be best for most situations, but in cases where you need
+            to render very small text, the Display setting can sometimes yield a better result.-->
+            <TextBlock >
+                <LineBreak></LineBreak>
+                <LineBreak></LineBreak>
+            </TextBlock>
+
+            <StackPanel Margin="10" TextOptions.TextFormattingMode="Display">
+                <Label TextOptions.TextRenderingMode="Auto" FontSize="9">TextRenderingMode.Auto, small text</Label>
+                <Label TextOptions.TextRenderingMode="Aliased" FontSize="9">TextRenderingMode.Aliased, small text</Label>
+                <Label TextOptions.TextRenderingMode="ClearType" FontSize="9">TextRenderingMode.ClearType, small text</Label>
+                <Label TextOptions.TextRenderingMode="Grayscale" FontSize="9">TextRenderingMode.Grayscale, small text</Label>
+                <Label TextOptions.TextRenderingMode="Auto" FontSize="18">TextRenderingMode.Auto, large text</Label>
+                <Label TextOptions.TextRenderingMode="Aliased" FontSize="18">TextRenderingMode.Aliased, large text</Label>
+                <Label TextOptions.TextRenderingMode="ClearType" FontSize="18">TextRenderingMode.ClearType, large text</Label>
+                <Label TextOptions.TextRenderingMode="Grayscale" FontSize="18">TextRenderingMode.Grayscale, large text</Label>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

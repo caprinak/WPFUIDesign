@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="MVVMFormBasic.Views.DataBindings.StringFormat"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             xmlns:local="clr-namespace:MVVMFormBasic.Views.DataBindings"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             Name="wnd"
+             >
+
+    <StackPanel Margin="10" Orientation="Horizontal" >
+        <StackPanel Margin="50">
+            <TextBlock Text="{Binding ElementName=wnd, Path=ActualWidth, StringFormat=Window width: {0:#,#.00}}" />
+            <TextBlock Text="{Binding ElementName=wnd, Path=ActualHeight, StringFormat=Window height: {0:C}}" />
+            <TextBlock Text="{Binding Source={x:Static system:DateTime.Now}, StringFormat=Date: {0:dddd, MMMM dd}}" />
+            <TextBlock Text="{Binding Source={x:Static system:DateTime.Now}, StringFormat=Time: {0:HH:mm}}" />
+            <!--Please be aware that if you specify a format string that doesn't include any custom text, 
+ which all of the examples above does, then you need to add an extra set of curly braces, when
+ defining it in XAML. The reason is that WPF may otherwise confuse the syntax with the one used
+ for Markup Extensions.-->
+
+            <TextBlock Text="{Binding ElementName=wnd, Path=ActualWidth, StringFormat={}{0:#,#.0}}" />
+        </StackPanel>
+        <!--Using a specific Culture-->
+        <StackPanel Margin="10">
+            <TextBlock Text="{Binding Source={x:Static system:DateTime.Now}, ConverterCulture='vi-VI', StringFormat=Vietnamese date: {0:D}}" />
+            <TextBlock Text="{Binding Source={x:Static system:DateTime.Now}, ConverterCulture='de-DE', StringFormat=German date: {0:D}}" />
+            <TextBlock Text="{Binding Source={x:Static system:DateTime.Now}, ConverterCulture='en-US', StringFormat=American date: {0:D}}" />
+            <TextBlock Text="{Binding Source={x:Static system:DateTime.Now}, ConverterCulture='ja-JP', StringFormat=Japanese date: {0:D}}" />
+        </StackPanel>
+    </StackPanel>
+</UserControl>

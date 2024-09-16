@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="MVVMFormBasic.Views.Commands.Basic"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MVVMFormBasic.Views.Commands"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <!--define a command binding on UserControl by adding it to its CommandBindings collection with two event handlers-->
+    <UserControl.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.New" Executed="NewCommand_Executed" CanExecute="NewCommand_CanExecute" />
+    </UserControl.CommandBindings>
+
+    <!--specify that Command that we wish to use (the New command from the ApplicationCommands)
+    A thing to notice is that this command has a default keyboard shortcut defined, which you get
+    as an added bonus. Instead of clicking the button, you can try to press Ctrl+N on your keyboard 
+    - the result is the same.-->
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Button Command="ApplicationCommands.New">_New</Button>
+    </StackPanel>
+</UserControl>

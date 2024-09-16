@@ -1,0 +1,49 @@
+﻿<Window x:Class="MVVMFormBasic.RichTextControls.FlowDocumentScrollViewerZoomSample"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MVVMFormBasic.RichTextControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <StackPanel>
+        <!--IsToolBarVisible property is true: displaying the built-in toolbar of the FlowDocumentScrollViewer, which has 
+        controls that will allow you to change the zoom level
+        all of the FlowDocument wrappers support zooming out of the box. -->
+        <FlowDocumentScrollViewer IsToolBarVisible="True" Zoom="80" ScrollViewer.VerticalScrollBarVisibility="Auto">
+            <FlowDocument>
+                <!--specify the text, using simple markup tags, in this case the Paragraph tag
+                 Using FlowDocument you get a bit of added functionality for free: You can select the text and copy it to the clipboard-->
+                <Paragraph FontSize="36">Hello, world!</Paragraph> 
+                <!--text is rendered justified by default-->
+                <Paragraph FontStyle="Italic" TextAlignment="Left" FontSize="14" Foreground="Gray">The ultimate programming greeting!</Paragraph>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+        
+        <StackPanel Orientation="Horizontal">
+            <FlowDocumentScrollViewer ScrollViewer.VerticalScrollBarVisibility="Auto" Width="300">
+                <FlowDocument>
+                    <Paragraph FontStyle="Italic" FontSize="14" Foreground="Gray">By setting the
+                        <Bold>IsOptimalParagraphEnabled</Bold> property to true,
+            you will allow WPF to look ahead on the lines to come, before deciding
+            where to break. This will usually result in a more pleasant reading
+            experience. It works especially well in combination with the
+                        <Bold>IsHyphenationEnabled</Bold> property.
+                    </Paragraph>
+                </FlowDocument>
+            </FlowDocumentScrollViewer>
+            <FlowDocumentScrollViewer ScrollViewer.VerticalScrollBarVisibility="Auto" Width="300" >
+                <FlowDocument IsOptimalParagraphEnabled="True" IsHyphenationEnabled="True">
+                    <Paragraph FontStyle="Italic" FontSize="14" Foreground="Gray">By setting the
+                        <Bold>IsOptimalParagraphEnabled</Bold> property to true,
+            you will allow WPF to look ahead on the lines to come, before deciding
+            where to break. This will usually result in a more pleasant reading
+            experience. It works especially well in combination with the
+                        <Bold>IsHyphenationEnabled</Bold> property.
+                    </Paragraph>
+                </FlowDocument>
+            </FlowDocumentScrollViewer>
+        </StackPanel>
+        
+    </StackPanel>
+</Window>

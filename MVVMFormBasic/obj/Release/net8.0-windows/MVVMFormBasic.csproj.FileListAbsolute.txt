@@ -1,0 +1,254 @@
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\StyleResource.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MainWindow.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\BasicXaml.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\ButtonControl.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\Canvas.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\CheckBoxCtrl.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\CommandLineTest.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\CultureInfoPractice.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\DockPanelCtrl.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\Grid.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\GridContactForm.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\GridSpan.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\GridSplitter.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\ImagesControl.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\LabelControl.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\LimitedInputUserControl.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\PasswordBox.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\RadioButtonCtrl.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\StudentDataTemplateView.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\StudentView.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\TabOrder.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\TextBlockCtrl.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\TextRendering.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\ToolTipCtrl.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\WrapPanel.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\App.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MVVMFormBasic_MarkupCompile.cache
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MVVMFormBasic_MarkupCompile.lref
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\App.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\BasicXaml.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\ButtonControl.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\Canvas.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\CheckBoxCtrl.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\CommandLineTest.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\CultureInfoPractice.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\DockPanelCtrl.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\Grid.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\GridContactForm.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\GridSpan.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\GridSplitter.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\ImagesControl.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\LabelControl.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\LimitedInputUserControl.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\PasswordBox.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\RadioButtonCtrl.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\StudentDataTemplateView.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\StudentView.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\TabOrder.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\TextBlockCtrl.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\TextRendering.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\ToolTipCtrl.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\WrapPanel.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MVVMFormBasic.dll
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\refint\MVVMFormBasic.dll
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MVVMFormBasic.pdb
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\bin\Release\net8.0-windows\MVVMFormBasic.exe
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\bin\Release\net8.0-windows\MVVMFormBasic.deps.json
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\bin\Release\net8.0-windows\MVVMFormBasic.runtimeconfig.json
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\bin\Release\net8.0-windows\MVVMFormBasic.dll
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\bin\Release\net8.0-windows\MVVMFormBasic.pdb
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\bin\Release\net8.0-windows\System.Speech.dll
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\bin\Release\net8.0-windows\System.Windows.Forms.Ribbon35.dll
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\bin\Release\net8.0-windows\runtimes\win\lib\net8.0\System.Speech.dll
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MVVMFormBasic.csproj.AssemblyReference.cache
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Audio_and_Video\AudioVideoPlayerCompleteSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Audio_and_Video\MediaPlayerAudioControlSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Audio_and_Video\MediaPlayerAudioSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Audio_and_Video\MediaPlayerVideoSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Audio_and_Video\SystemSoundsSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Common Interface\ContextMenuManuallyInvokedSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Common Interface\ContextMenuWithCommandsSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Common Interface\MenuCtrl.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Common Interface\StatusBarAdvancedSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Common Interface\ToolbarCustomControlsSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Common Interface\ToolbarIconSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Common Interface\ToolbarSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\CsharpBasics\PropertyInfoTest.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\DataGrid\DataGridColumnsSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\DataGrid\DataGridDetailsAdvanced.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\DataGrid\DataGridDetailsSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\DataGrid\SimpleDataGridSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Dialogs\CustomInputDialog.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Dialogs\FileDialog.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Dialogs\InputDialogSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Dialogs\MessageBoxCtrl.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Dialogs\SaveFileDialogDemo.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListControls\ComboBoxCustomContentSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListControls\ComboBoxDataBindingSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListControls\ComboBoxEditableSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListControls\ComboBoxSelectionSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListControls\ListBoxDataBindingSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListView\FilteringSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListView\ListViewBasicSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListView\ListViewColumnSortingSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListView\ListViewDataBindingSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListView\ListViewGridViewSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListView\ListViewGroupSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListView\ListViewItemTemplateSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListView\ListViewSortingSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\BorderSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\CalendarBlockedoutDatesSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\CalendarControlSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\CalendarSelectedDatesSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\CalendarSelectionSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\DatePickerSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\ExpanderSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\GroupBoxSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\ProgressBarTaskOnUiThread.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\ProgressBarTextSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\SliderSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\SliderValueChangedSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\WebBrowserControlSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\WindowsFormsHostSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MISC\BackgroundWorkerCancellationSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MISC\BackgroundWorkerSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MISC\DispatcherTimerSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\RichTextControls\BlockUIContainerSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\RichTextControls\CodeBehindFlowDocumentSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\RichTextControls\ExtendedFlowDocumentSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\RichTextControls\FlowDocumentPageViewerSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\RichTextControls\FlowDocumentReaderSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\RichTextControls\FlowDocumentScrollViewerZoomSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\RichTextControls\FlowDocumentSearchSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\SpeechSynthesis\SpeechRecognitionTextSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\SpeechSynthesis\SpeechSynthesisPromptBuilderSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\SpeechSynthesis\SpeechSynthesisSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Styles\ExplicitStyleSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Styles\SimpleStyleSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Styles\StyleDataTriggerSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Styles\StyleEventTriggerSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Styles\StyleMultiDataTriggerSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Styles\StyleMultiTriggerSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Styles\StyleTriggerEnterExitActions.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Styles\StyleTriggersSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TabControl\ControllingTheTabControlSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TabControl\ItemsControlDataBindingSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TabControl\ItemsControlPanelSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TabControl\StyledTabItemsSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TabControl\TabControlWithCustomHeadersSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TabControl\TabStripPlacementSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TreeView\LazyLoadingSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TreeView\TreeViewCustomItemsSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TreeView\TreeViewDataBindingSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TreeView\TreeViewMultipleTemplatesSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TreeView\TreeViewSelectionExpansionSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\Commands\Basic.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\Commands\CustomCommandSample.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\Commands\CutPasteCommand.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\Commands\DefaultCommands.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\DataBindings\ChangesReflection.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\DataBindings\StringFormat.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\DataBindings\UpdateSourceTrigger.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\DataBindings\ValueConverter.g.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Audio_and_Video\AudioVideoPlayerCompleteSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Audio_and_Video\MediaPlayerAudioControlSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Audio_and_Video\MediaPlayerAudioSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Audio_and_Video\MediaPlayerVideoSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Audio_and_Video\SystemSoundsSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Common Interface\ContextMenuManuallyInvokedSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Common Interface\ContextMenuWithCommandsSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Common Interface\MenuCtrl.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Common Interface\StatusBarAdvancedSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Common Interface\ToolbarCustomControlsSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Common Interface\ToolbarIconSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Common Interface\ToolbarSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\CsharpBasics\PropertyInfoTest.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\DataGrid\DataGridColumnsSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\DataGrid\DataGridDetailsAdvanced.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\DataGrid\DataGridDetailsSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\DataGrid\SimpleDataGridSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Dialogs\CustomInputDialog.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Dialogs\FileDialog.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Dialogs\InputDialogSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Dialogs\MessageBoxCtrl.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Dialogs\SaveFileDialogDemo.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListControls\ComboBoxCustomContentSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListControls\ComboBoxDataBindingSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListControls\ComboBoxEditableSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListControls\ComboBoxSelectionSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListControls\ListBoxDataBindingSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListView\FilteringSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListView\ListViewBasicSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListView\ListViewColumnSortingSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListView\ListViewDataBindingSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListView\ListViewGridViewSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListView\ListViewGroupSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListView\ListViewItemTemplateSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ListView\ListViewSortingSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MainWindow.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\BorderSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\CalendarBlockedoutDatesSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\CalendarControlSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\CalendarSelectedDatesSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\CalendarSelectionSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\DatePickerSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\ExpanderSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\GroupBoxSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\ProgressBarTaskOnUiThread.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\ProgressBarTextSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\SliderSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\SliderValueChangedSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\WebBrowserControlSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Misc Controls\WindowsFormsHostSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MISC\BackgroundWorkerCancellationSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MISC\BackgroundWorkerSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MISC\DispatcherTimerSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\RichTextControls\BlockUIContainerSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\RichTextControls\CodeBehindFlowDocumentSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\RichTextControls\ExtendedFlowDocumentSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\RichTextControls\FlowDocumentPageViewerSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\RichTextControls\FlowDocumentReaderSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\RichTextControls\FlowDocumentScrollViewerZoomSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\RichTextControls\FlowDocumentSearchSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\SpeechSynthesis\SpeechRecognitionTextSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\SpeechSynthesis\SpeechSynthesisPromptBuilderSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\SpeechSynthesis\SpeechSynthesisSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Styles\ExplicitStyleSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Styles\SimpleStyleSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Styles\StyleDataTriggerSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Styles\StyleEventTriggerSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Styles\StyleMultiDataTriggerSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Styles\StyleMultiTriggerSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Styles\StyleTriggerEnterExitActions.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Styles\StyleTriggersSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TabControl\ControllingTheTabControlSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TabControl\ItemsControlDataBindingSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TabControl\ItemsControlPanelSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TabControl\StyledTabItemsSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TabControl\TabControlWithCustomHeadersSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TabControl\TabStripPlacementSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TreeView\LazyLoadingSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TreeView\TreeViewCustomItemsSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TreeView\TreeViewDataBindingSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TreeView\TreeViewMultipleTemplatesSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\TreeView\TreeViewSelectionExpansionSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\Commands\Basic.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\Commands\CustomCommandSample.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\Commands\CutPasteCommand.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\Commands\DefaultCommands.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\DataBindings\ChangesReflection.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\DataBindings\StringFormat.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\DataBindings\UpdateSourceTrigger.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\Views\DataBindings\ValueConverter.baml
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MVVMFormBasic.g.resources
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MVVMFormBasic.Properties.Resources.resources
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MVVMFormBasic.csproj.GenerateResource.cache
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MVVMFormBasic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MVVMFormBasic.AssemblyInfoInputs.cache
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MVVMFormBasic.AssemblyInfo.cs
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MVVMFormBasic.csproj.CoreCompileInputs.cache
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MVVMFormBasic.csproj.CopyComplete
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\MVVMFormBasic.genruntimeconfig.cache
+D:\Udemy\C#\MVVMFormBasic\MVVMFormBasic\obj\Release\net8.0-windows\ref\MVVMFormBasic.dll

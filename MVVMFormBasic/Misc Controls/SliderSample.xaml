@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="MVVMFormBasic.Misc_Controls.SliderSample"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MVVMFormBasic.Misc_Controls"
+              
+             mc:Ignorable="d" 
+             Width="450" >
+    <StackPanel VerticalAlignment="Center" Margin="10">
+        <Slider Maximum="100" Margin="0 0 0 20"/>
+        <Slider Maximum="100" TickPlacement="TopLeft" TickFrequency="5" /> 
+    <!--TickFrequency to 10, and then enabled the IsSnapToTickEnabled property. This ensures that the thumb can only 
+        be placed directly on a tick value, so for this example, it can only be 0, 10, 20, 30, 40 and so on.-->
+        <Slider Maximum="100" Margin="0 20 0 20" TickPlacement="BottomRight" TickFrequency="10" IsSnapToTickEnabled="True" />
+        <DockPanel VerticalAlignment="Center" Margin="10">
+            <TextBox Text="{Binding ElementName=slValue, Path=Value, UpdateSourceTrigger=PropertyChanged}" DockPanel.Dock="Right" TextAlignment="Right" Width="40" />
+            <Slider Maximum="255" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True" Name="slValue" />
+        </DockPanel>
+        <TextBlock><Span><Bold> Slider Value Changed Sample</Bold> </Span>
+        <LineBreak></LineBreak>
+        </TextBlock>
+        <local:SliderValueChangedSample></local:SliderValueChangedSample>
+    </StackPanel>
+</UserControl>
